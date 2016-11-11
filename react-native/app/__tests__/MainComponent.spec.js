@@ -7,18 +7,18 @@ import {
 import MainComponent from '../MainComponent.js';
 
 let cb;
-const store = (callback) => {
+const store = callback => {
 	cb = callback;
 	callback('test');
 };
 
 it('renders correctly', () => {
-	shallow(<MainComponent store={store} />);
+	shallow(<MainComponent store={store}/>);
 });
 
 describe('Touching the component', () => {
 	it('changes the text correctly', () => {
-		const wrapper = shallow(<MainComponent store={store} />);
+		const wrapper = shallow(<MainComponent store={store}/>);
 		const touchable = wrapper.find(TouchableHighlight);
 		touchable.simulate('press');
 
