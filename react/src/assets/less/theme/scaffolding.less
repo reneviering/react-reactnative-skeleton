@@ -1,0 +1,41 @@
+//
+// Scaffolding
+// --------------------------------------------------
+//
+// Use this to add CSS rules according to the most generic html elements like
+// `html`, `body` etc. and to override the content of
+// /libs/bootstrap/less/scaffolding.less
+
+// html
+html {
+	// Get properties related to sticky footer. See footer.less
+	.mm_footer-htmlProps();
+}
+
+
+// body
+body {
+	overflow-y: scroll;
+	// Get properties related to sticky footer. See footer.less
+	.mm_footer-bodyProps();
+}
+
+nav {
+	position: fixed;
+	background-color: #ecf0f1;
+	width: 100%;
+	ul, li {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		display: inline-block;
+		padding: 20px;
+	}
+}
+
+#app {
+	padding-top: 100px;
+}

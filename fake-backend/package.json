@@ -1,0 +1,48 @@
+{
+  "name": "http-fake-backend",
+  "version": "3.2.0",
+  "description": "Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.",
+  "license": "MIT",
+  "main": "index.js",
+  "homepage": "https://github.com/micromata/http-fake-backend",
+  "repository": "micromata/http-fake-backend",
+  "author": "Michael Kühnel <m.kuehnel@micromata.de>",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "test": "lab -v -c -L",
+    "coverage": "lab -v -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html",
+    "coveralls": "lab -r lcov | ./node_modules/.bin/coveralls"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-hapi"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "boom": "4.1.0",
+    "confidence": "3.0.2",
+    "dotenv": "2.0.0",
+    "glue": "4.0.0",
+    "good": "7.0.2",
+    "good-console": "6.1.2",
+    "good-squeeze": "5.0.0",
+    "handlebars": "4.0.5",
+    "hapi": "15.1.1",
+    "inert": "4.0.2",
+    "require-dir": "0.3.1",
+    "vision": "4.1.0",
+    "visionary": "6.0.2"
+  },
+  "devDependencies": {
+    "code": "4.0.0",
+    "coveralls": "2.11.14",
+    "eslint": "3.7.1",
+    "eslint-config-hapi": "10.0.0",
+    "eslint-plugin-hapi": "4.0.0",
+    "lab": "11.1.0",
+    "nodemon": "1.11.0"
+  }
+}

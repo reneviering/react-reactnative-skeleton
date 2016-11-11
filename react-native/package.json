@@ -1,0 +1,41 @@
+{
+  "name": "Skeleton",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "run-fake-backend": "cd ../fake-backend && npm start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-dom": "^15.3.2",
+    "react-native": "0.35.0",
+    "redux": "^3.6.0"
+  },
+  "jest": {
+    "preset": "jest-react-native",
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!ios/**/*",
+      "!coverage/**/*",
+      "!android/**/*"
+    ]
+  },
+  "devDependencies": {
+    "babel-jest": "16.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "enzyme": "^2.5.1",
+    "eslint": "^3.9.1",
+    "eslint-config-xo-react": "^0.10.0",
+    "eslint-plugin-react": "^6.6.0",
+    "eslint-plugin-react-native": "^2.0.0",
+    "jest": "16.0.2",
+    "jest-react-native": "16.0.0",
+    "react-native-mock": "^0.2.7",
+    "react-test-renderer": "15.3.2"
+  }
+}
