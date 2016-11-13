@@ -3,6 +3,6 @@ import {
   AppRegistry
 } from 'react-native';
 
-import MainComponent from './components/MainComponent';
+import MainComponent from './app/components/MainComponent';
 
-AppRegistry.registerComponent('Skeleton', () => <MainComponent/>);
+AppRegistry.registerComponent('Skeleton', () => MainComponent);

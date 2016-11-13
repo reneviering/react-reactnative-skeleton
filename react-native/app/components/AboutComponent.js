@@ -1,31 +1,31 @@
 import React from 'react';
-
 import {
 	View,
 	Text,
 	TouchableHighlight
 } from 'react-native';
 
-const HomeComponent = React.createClass({
+const AboutComponent = React.createClass({
 	propTypes() {
 		return {
-			navigator: React.PropTypes.object.isRequired
+			navigator: React.PropTypes.string.isRequired
 		};
 	},
+
 	handlePress() {
 		this.props.navigator.replace({
-			name: 'About'
+			name: 'Home'
 		});
 	},
 	render() {
 		return (
 			<TouchableHighlight onPress={this.handlePress}>
-				<View>
-					<Text>Home component</Text>
+				<View style={{marginTop: 50}}>
+					<Text>About component</Text>
 				</View>
 			</TouchableHighlight>
 		);
 	}
 });
 
-export default HomeComponent;
+export default AboutComponent;
