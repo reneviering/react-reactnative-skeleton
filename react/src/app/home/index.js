@@ -4,7 +4,7 @@ import HomeComponent from './homeComponent.js';
 
 const init = ($el, data) => {
 	console.warn(data);
-	ReactDOM.render(<HomeComponent/>, $el);
+	ReactDOM.render(<HomeComponent store={data.store} actionCreator={data.actionCreator}/>, $el);
 };
 
 const dispose = () => {

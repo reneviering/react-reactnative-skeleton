@@ -1,18 +1,28 @@
 import React from 'react';
-import {http} from '../core/httpProvider';
 
 const HomeComponent = React.createClass({
+	propTypes() {
+		return {store: React.PropTypes.required.object};
+	},
+	getInitialState() {
+		return {assortments: this.props.store.getState().assortments};
+	},
 	componentDidMount() {
-		http.get('http://localhost:8081/api/assortment', true).then(response => {
-			console.warn(response);
+		this.unsubscribeFromStore = this.props.store.subscribe(() => {
+			console.warn(this.state, this.props.store.getState().assortments.length);
+			this.setState({
+				assortments: this.props.store.getState().assortments
+			});
 		});
+		this.props.actionCreator.fetchAssortments();
 	},
 	componentWillUnmount() {
-		// dispose...
+		this.unsubscribeFromStore();
 	},
 	render() {
+		const assortments = JSON.stringify(this.state.assortments);
 		return (
-			<div>Welcome to the Hackathon!</div>
+			<div>Welcome to the Hackathon! {assortments}</div>
 		);
 	}
 });

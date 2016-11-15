@@ -7,5 +7,14 @@
     "confections": [25, 40],
     "name": "Accio",
     "color": "#25334F"
+  },
+  {
+    "id": 1,
+    "intensity": 12,
+    "category": 1,
+    "price": 39,
+    "confections": [25, 40],
+    "name": "Accio",
+    "color": "#25334F"
   }
 ]
