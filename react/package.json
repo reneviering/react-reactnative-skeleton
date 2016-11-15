@@ -23,7 +23,11 @@
       "src/app/**/*.{js,jsx}",
       "!**/node_modules/**",
       "!coverage/**/*"
-    ]
+    ],
+    "testPathIgnorePatterns": [
+       "/node_modules/",
+       "/server/"
+     ]
   },
   "dependencies": {
     "bootstrap": "^3.3.6",

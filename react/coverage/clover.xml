@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1478707155672" clover="3.2.0">
-  <project timestamp="1478707155672" name="All files">
-    <metrics statements="55" coveredstatements="4" conditionals="30" coveredconditionals="0" methods="18" coveredmethods="0" elements="103" coveredelements="4" complexity="0" loc="55" ncloc="55" packages="4" files="7" classes="7">
+<coverage generated="1479245409164" clover="3.2.0">
+  <project timestamp="1479245409165" name="All files">
+    <metrics statements="92" coveredstatements="22" conditionals="33" coveredconditionals="3" methods="31" coveredmethods="5" elements="156" coveredelements="30" complexity="0" loc="92" ncloc="92" packages="6" files="13" classes="13">
       <package name="app">
-        <metrics statements="10" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <file name="index.js" path="/Users/reneprivat/Projects/github/react-reactnative-skeleton/react/src/app/index.js">
-          <metrics statements="10" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
-          <line num="3" count="0" type="stmt"/>
-          <line num="5" count="0" type="stmt"/>
+        <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <file name="index.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/index.js">
+          <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
           <line num="7" count="0" type="stmt"/>
-          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
           <line num="11" count="0" type="stmt"/>
-          <line num="12" count="0" type="stmt"/>
-          <line num="15" count="0" type="stmt"/>
+          <line num="14" count="0" type="stmt"/>
           <line num="16" count="0" type="stmt"/>
           <line num="18" count="0" type="stmt"/>
-          <line num="19" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="39" count="0" type="stmt"/>
+          <line num="41" count="0" type="stmt"/>
         </file>
       </package>
       <package name="app.about">
         <metrics statements="8" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
-        <file name="aboutComponent.js" path="/Users/reneprivat/Projects/github/react-reactnative-skeleton/react/src/app/about/aboutComponent.js">
+        <file name="aboutComponent.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/about/aboutComponent.js">
           <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
           <line num="3" count="1" type="stmt"/>
           <line num="5" count="2" type="stmt"/>
           <line num="9" count="1" type="stmt"/>
           <line num="15" count="3" type="stmt"/>
         </file>
-        <file name="index.js" path="/Users/reneprivat/Projects/github/react-reactnative-skeleton/react/src/app/about/index.js">
+        <file name="index.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/about/index.js">
           <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
           <line num="1" count="0" type="stmt"/>
           <line num="4" count="0" type="stmt"/>
@@ -35,16 +37,54 @@
           <line num="10" count="0" type="stmt"/>
         </file>
       </package>
+      <package name="app.actions">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <file name="actions.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/actions/actions.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="1" type="stmt"/>
+        </file>
+        <file name="createActionCreator.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/actions/createActionCreator.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+        </file>
+      </package>
       <package name="app.core">
-        <metrics statements="30" coveredstatements="0" conditionals="14" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <file name="rendering.js" path="/Users/reneprivat/Projects/github/react-reactnative-skeleton/react/src/app/core/rendering.js">
+        <metrics statements="47" coveredstatements="0" conditionals="18" coveredconditionals="0" methods="16" coveredmethods="0"/>
+        <file name="dataProvider.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/core/dataProvider.js">
+          <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+        </file>
+        <file name="httpProvider.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/core/httpProvider.js">
+          <metrics statements="14" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+          <line num="16" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="35" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="42" count="0" type="stmt"/>
+        </file>
+        <file name="rendering.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/core/rendering.js">
           <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
           <line num="1" count="0" type="stmt"/>
           <line num="3" count="0" type="stmt"/>
           <line num="4" count="0" type="stmt"/>
           <line num="5" count="0" type="stmt"/>
         </file>
-        <file name="router.js" path="/Users/reneprivat/Projects/github/react-reactnative-skeleton/react/src/app/core/router.js">
+        <file name="router.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/core/router.js">
           <metrics statements="26" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="4" coveredmethods="0"/>
           <line num="1" count="0" type="stmt"/>
           <line num="2" count="0" type="stmt"/>
@@ -75,19 +115,40 @@
         </file>
       </package>
       <package name="app.home">
-        <metrics statements="7" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <file name="homeComponent.js" path="/Users/reneprivat/Projects/github/react-reactnative-skeleton/react/src/app/home/homeComponent.js">
-          <metrics statements="3" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
-          <line num="1" count="0" type="stmt"/>
-          <line num="3" count="0" type="stmt"/>
+        <metrics statements="14" coveredstatements="7" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <file name="homeComponent.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/home/homeComponent.js">
+          <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
           <line num="5" count="0" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="22" count="2" type="stmt"/>
+          <line num="23" count="2" type="stmt"/>
         </file>
-        <file name="index.js" path="/Users/reneprivat/Projects/github/react-reactnative-skeleton/react/src/app/home/index.js">
-          <metrics statements="4" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="index.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/home/index.js">
+          <metrics statements="5" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
           <line num="1" count="0" type="stmt"/>
           <line num="3" count="0" type="stmt"/>
           <line num="5" count="0" type="stmt"/>
-          <line num="9" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="app.reducers">
+        <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <file name="assortments.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/reducers/assortments.js">
+          <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="4" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="8" count="3" type="stmt"/>
+        </file>
+        <file name="rootReducer.js" path="/Users/rviering/Projects/github/react-reactnative-skeleton/react/src/app/reducers/rootReducer.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="4" count="1" type="stmt"/>
         </file>
       </package>
     </metrics>

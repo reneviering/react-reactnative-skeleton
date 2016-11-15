@@ -4,10 +4,11 @@ import HomeRoute from './home';
 import AboutRoute from './about';
 import rootReducer from './reducers/rootReducer';
 import {createActionCreator} from './actions/createActionCreator';
+import dataProvider from './core/dataProvider';
 
 // Init redux
 const store = createStore(rootReducer);
-const actionCreator = createActionCreator(store);
+const actionCreator = createActionCreator(store, dataProvider);
 
 // Init router
 const router = createRouter('app');

@@ -1,9 +1,8 @@
-import {http} from '../core/httpProvider.js';
 import {RECEIVE_ASSORTMENTS} from './actions';
 
-export const createActionCreator = store => {
+export const createActionCreator = (store, dataProvider) => {
 	const fetchAssortments = () => {
-		return http.get('http://localhost:8082/api/assortment', true)
+		return dataProvider.getAssortments()
 			.then(response => {
 				store.dispatch({
 					type: RECEIVE_ASSORTMENTS,
