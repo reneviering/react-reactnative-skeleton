@@ -33,7 +33,7 @@ const createRouter = domEntryPointSelector => {
 			}
 		}
 
-		routeHandler.init(domEntryPoint);
+		routeHandler.init(domEntryPoint, routeHandler.data);
 
 		currentRouteUrl = url;
 	};

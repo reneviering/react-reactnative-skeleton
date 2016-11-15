@@ -18,11 +18,13 @@ router.addRoute('/', {
 
 router.addRoute('home', {
 	init: HomeRoute.init,
-	dispose: HomeRoute.dispose
+	dispose: HomeRoute.dispose,
+	data: {store: 'store'}
 });
 router.addRoute('about', {
 	init: AboutRoute.init,
-	dispose: AboutRoute.dispose
+	dispose: AboutRoute.dispose,
+	data: {store: 'store'}
 });
 
 router.addRoute('*', {

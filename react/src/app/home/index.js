@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import HomeComponent from './homeComponent.js';
 
-const init = $el => {
+const init = ($el, data) => {
+	console.warn(data);
 	ReactDOM.render(<HomeComponent/>, $el);
 };
 
