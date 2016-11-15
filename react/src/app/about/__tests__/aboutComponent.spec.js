@@ -1,7 +1,7 @@
 import React from 'react'; // eslint-disable-line
 import {shallow} from 'enzyme';
 
-import AboutComponent from '../aboutComponent.js'; // eslint-disable-line
+import AboutComponent from '../components/aboutComponent.js'; // eslint-disable-line
 
 describe('<AboutComponent/>', () => { // eslint-disable-line
 	it('is rendered correctly', () => { // eslint-disable-line

@@ -1,7 +1,7 @@
 import React from 'react'; // eslint-disable-line
 import {mount} from 'enzyme';
 import {createStore} from 'redux';
-import HomeComponent from '../homeComponent.js'; // eslint-disable-line
+import HomeComponent from '../components/homeComponent.js'; // eslint-disable-line
 import rootReducer from '../../reducers/rootReducer';
 import {createActionCreator} from '../../actions/createActionCreator';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Home from './components/HomeComponent';
-import About from './components/AboutComponent';
+import Home from './home/HomeComponent';
+import About from './about/AboutComponent';
 
 const routeConfiguration = {
 	Home(props, navigator, route, store, actionCreator) {

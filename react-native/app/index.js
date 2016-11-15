@@ -3,10 +3,10 @@ import {
 	Navigator
 } from 'react-native';
 import {createStore} from 'redux';
-import rootReducer from '../reducers/rootReducer';
-import {createActionCreator} from '../actions/createActionCreator';
+import rootReducer from './reducers/rootReducer';
+import {createActionCreator} from './actions/createActionCreator';
 
-import RouteConfiguration from '../routeConfiguration.js';
+import RouteConfiguration from './routeConfiguration.js';
 
 // Initialize redux
 const store = createStore(rootReducer);
