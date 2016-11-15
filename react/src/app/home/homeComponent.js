@@ -9,7 +9,6 @@ const HomeComponent = React.createClass({
 	},
 	componentDidMount() {
 		this.unsubscribeFromStore = this.props.store.subscribe(() => {
-			console.warn(this.state, this.props.store.getState().assortments.length);
 			this.setState({
 				assortments: this.props.store.getState().assortments
 			});

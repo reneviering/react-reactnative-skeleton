@@ -2,11 +2,15 @@ import React from 'react';
 import {
 	Navigator
 } from 'react-native';
+import {createStore} from 'redux';
+import rootReducer from '../reducers/rootReducer';
+import {createActionCreator} from '../actions/createActionCreator';
 
 import RouteConfiguration from '../routeConfiguration.js';
 
-const store = {};
-const actionCreator = {};
+// Initialize redux
+const store = createStore(rootReducer);
+const actionCreator = createActionCreator(store);
 
 const MainComponent = React.createClass({
 	renderScene(route, navigator) {
