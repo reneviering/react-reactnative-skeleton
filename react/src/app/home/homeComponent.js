@@ -22,7 +22,10 @@ const HomeComponent = React.createClass({
 	render() {
 		const assortments = JSON.stringify(this.state.assortments);
 		return (
-			<div>Welcome to the Hackathon! {assortments}</div>
+			<div>
+				<h1>Welcome to the Hackathon!</h1>
+				<p>{assortments}</p>
+			</div>
 		);
 	}
 });
