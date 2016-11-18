@@ -7,8 +7,4 @@ const init = ($el, data) => {
 	ReactDOM.render(<HomeComponent store={data.store} actionCreator={data.actionCreator}/>, $el);
 };
 
-const dispose = () => {
-
-};
-
-export default {init, dispose};
+export default {init};

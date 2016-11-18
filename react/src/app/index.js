@@ -27,12 +27,10 @@ router.addRoute('/', {
 
 router.addRoute('home', {
 	init: HomeRoute.init,
-	dispose: HomeRoute.dispose,
 	data: {store: store, actionCreator: actionCreator} // pass store and actionCreator to the route handler
 });
 router.addRoute('about', {
 	init: AboutRoute.init,
-	dispose: AboutRoute.dispose,
 	data: {store: store, actionCreator: actionCreator} // pass store and actionCreator to the route handler
 });
 

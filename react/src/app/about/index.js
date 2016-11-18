@@ -7,8 +7,4 @@ const init = $el => {
 	ReactDOM.render(<AboutComponent/>, $el);
 };
 
-const dispose = () => {
-
-};
-
-export default {init, dispose};
+export default {init};
