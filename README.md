@@ -3,6 +3,10 @@ Skeleton to work with react / react native
 
 # Installation
 
+## global npm modules
+	$ npm i -g react-native-cli
+	$ npm i -g grunt-cli
+
 ## React
 	$ cd react
 	$ npm i
