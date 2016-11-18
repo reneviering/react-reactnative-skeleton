@@ -22,3 +22,4 @@ Skeleton to work with react / react native
 ## Fake Backend
 	$ cd fake-backend
 	$ npm i
+	$ npm run start:dev
