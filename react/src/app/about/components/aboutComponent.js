@@ -2,18 +2,18 @@ import React from 'react';
 
 const AboutComponent = React.createClass({
 	getInitialState() {
-		return {text: ''};
+		return {text: 'Initial text.'};
 	},
 
 	handleClick() {
 		this.setState(Object.assign({}, this.state, {
-			text: 'Ich wurde geklickt'
+			text: 'I has been clicked.'
 		}));
 	},
 
 	render() {
 		return (
-			<div onClick={this.handleClick}>About....</div>
+			<div onClick={this.handleClick}>{this.state.text}</div>
 		);
 	}
 });
